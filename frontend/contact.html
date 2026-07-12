@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Nexora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">NEXORA<span class="dot">.</span></div>
+    <div class="navlinks">
+      <a href="index.html" data-page="index.html">home</a>
+      <a href="services.html" data-page="services.html">services</a>
+      <a href="work.html" data-page="work.html">work</a>
+      <a href="pricing.html" data-page="pricing.html">pricing</a>
+      <a href="about.html" data-page="about.html">about</a>
+      <a href="blog.html" data-page="blog.html">blog</a>
+      <a href="contact.html" class="nav-cta">start a project</a>
+    </div>
+    <button class="burger" aria-label="menu">☰</button>
+  </nav>
+</header>
+
+<main>
+  <section class="page-head" style="padding-bottom:0;">
+    <div class="grid-bg"></div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <span class="tag mono" style="color:var(--accent);font-family:'JetBrains Mono',monospace;font-size:12px;display:block;margin-bottom:14px;">// get in touch</span>
+        <h1 style="font-size:34px;">Ready to start your project?</h1>
+        <p>Tell us what you're building. We reply within one business day with next steps — or a straight answer if we're not the right fit.</p>
+        <div class="cinfo">
+          <div class="cinfo-row"><span class="k mono">EMAIL</span><span>hello@nexora.dev</span></div>
+          <div class="cinfo-row"><span class="k mono">PHONE</span><span>+92 300 000 0000</span></div>
+          <div class="cinfo-row"><span class="k mono">HOURS</span><span>Mon–Fri, 9am–6pm PKT</span></div>
+        </div>
+      </div>
+      <form class="reveal" id="leadForm">
+        <div class="field">
+          <label for="name">NAME</label>
+          <input type="text" id="name" required placeholder="Your full name">
+        </div>
+        <div class="field">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" required placeholder="you@company.com">
+        </div>
+        <div class="field">
+          <label for="details">PROJECT DETAILS</label>
+          <textarea id="details" required placeholder="What are you looking to build?"></textarea>
+        </div>
+        <div class="consent">
+          <input type="checkbox" id="consent" required>
+          <label for="consent">I agree to be contacted about my inquiry, per the <a href="privacy.html" style="color:var(--accent);">Privacy Policy</a>.</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send inquiry →</button>
+        <div class="form-msg" id="formMsg"></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="logo">NEXORA<span class="dot">.</span></div>
+      <div class="foot-links">
+        <div class="foot-col">
+          <h5>SITE</h5>
+          <a href="services.html">Services</a>
+          <a href="work.html">Work</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="blog.html">Blog</a>
+        </div>
+        <div class="foot-col">
+          <h5>COMPANY</h5>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="foot-col">
+          <h5>LEGAL</h5>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span class="prompt">$ nexora --status<span class="cursor"></span></span>
+      <small>© 2026 Nexora Software House. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
